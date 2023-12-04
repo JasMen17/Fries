@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQbjB_mQ.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQbjB_mQ.woff) format('woff');
+}
+
+body{
+    font-family: 'Oswald';
+    font-size: 1em;
+    
+    background-image: url(images/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+p{
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+header{
+    padding: 0px 0px 0px 10px;
+}
+
+header img{
+    width: 500px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+nav{
+    background-color: rgb(190, 30, 45);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 224, 101);
+}
+
+nav a{
+    color: rgb(171, 88, 171);
+    padding: 10px 10px 10px 10px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: orange;
+}
+nav a:visited{
+    color: rgb(171, 88, 171);
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+ol{
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+}
+
+
+footer{
+padding-bottom: 20px;
+background-color: rgb(190, 30, 45);
+}
+
+/*sart of divs and classes*/
+
+.info{
+    text-align: center;
+    color: white;
+    background-color: rgb(190, 30, 45);
+    padding: 40px 40px 40px 40px;
+}
+
+.history{
+    text-align: center;
+    color: white;
+    background-color: rgb(190, 30, 45);
+    padding: 40px 40px 40px 40px;
+}
+
+.popular{
+    text-align: center;
+    color: white;
+    background-color: rgb(190, 30, 45);
+    padding: 40px 40px 40px 40px;
+}
+
+
+.popular img{
+    width: 200px;
+    height: 200px;
+}
+
+.popular a{
+    color: white;
+    background-color: orange;
+}
+
+.ingredients{
+    color: white;
+    background-color: rgb(190, 30, 45);
+    padding: 40px 40px 40px 40px;
+}
